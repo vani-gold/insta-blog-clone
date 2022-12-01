@@ -263,6 +263,7 @@
   /* height: 20px; */
 }
 .float_follow{
+  /* margin-top: 30px; */
   float: right;
   color:#80c9f8;
   font-weight: 600px;
@@ -276,6 +277,6 @@
 }
 .ending{
   position: relative;
-  top: -250px;
+  top: -200px;
   left: 0;
 }
