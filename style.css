@@ -252,7 +252,9 @@ strong {
   margin-left: 10px;
   margin-right: 10px;
 }
-
+:not(.input__container){
+  
+}
 .post_suggestion_flex {
   display: flex;
 }
@@ -449,4 +451,39 @@ button{
 .big_font{
   font-size: 16px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* input */
+.input__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: transparent;
+  width: 100%;
+  padding-left: -5px;
+  height: 50px;
+  position: relative;
+  border-top: 1px solid rgb(236, 234, 234);
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-radius: 0 0 25px 25px;
+ /* border-radius: 17px; */
+}
+input{
+  width: 97%;
+  height: 100%;
+ 
+  border: 1px solid transparent;
+  outline: none;
+  background-color: #ffffff;
+}
+.float_post{
+  float: right;
+  margin-right: 12px;
+  color: #88c1e7;
+  font-size: 14px;
+  padding: 9px;
+}
+.imogie{
+  padding: 9px;
 }
