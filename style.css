@@ -252,9 +252,6 @@ strong {
   margin-left: 10px;
   margin-right: 10px;
 }
-:not(.input__container){
-  
-}
 .post_suggestion_flex {
   display: flex;
 }
