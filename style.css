@@ -336,9 +336,9 @@ strong {
 }
 
 .light_time2 {
-  font-size: 12px;
+  font-size: 13.5px;
   color: rgb(133, 128, 128);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:'poppin';
   padding-top: 0;
   margin-top: 0;
   line-height: .8rem;
@@ -387,7 +387,10 @@ strong {
   float: right;
   color: #020202;
 }
-
+/* tollttip one */
+.tooltip {
+  position: relative;
+}
 .tooltiptext {
   visibility: hidden;
   width: 400px;
@@ -399,14 +402,17 @@ strong {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  top: 205px;
-  left: 35%;
+  border: 1px solid gray;
+  /* top: 230px; */
+  top: 100%; 
+  left: 20%;
   margin-left: -60px;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
 .square_image{
   width: 30%;
   height: 100px;
@@ -423,6 +429,9 @@ strong {
   float: left;
   margin-left: 25px;
 }
+/* .line{
+  border-top:1px solid #949393;
+} */
 button{
   margin: 6px;
   border: 1px solid rgb(194, 191, 191);
@@ -486,4 +495,7 @@ input{
 }
 .imogie{
   padding: 9px;
+}
+.navy_blue{
+  color: rgb(3, 3, 85);
 }
