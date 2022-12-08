@@ -550,6 +550,7 @@ input{
   .logo2{
     display: block;
     margin-left: 26%; 
+    padding-bottom: 10px;
   }
   .new_post{
     width: fit-content;
@@ -592,6 +593,7 @@ input{
   }
   .logo2{
     display: block;
+    
   }
   .jakie{
     height: 400px;
