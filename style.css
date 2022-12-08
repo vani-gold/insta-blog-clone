@@ -547,7 +547,7 @@ input{
 }
 @media (max-width: 500px) {
   body{
-  overflow:hidden;
+  overflow-y:hidden;
   }
   .post_section_two{
     width: 400px;
