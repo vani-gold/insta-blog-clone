@@ -147,7 +147,9 @@ body {
   height: 60px;
   border-radius: 35px;
   /* padding: 2px; */
-  border: 2px solid orangered;
+  border: 2px solid rgba(255, 68, 0, 0);
+  background: linear-gradient(white, white) padding-box, 
+  linear-gradient(to right, rgb(207, 6, 222), orange)border-box;
 }
 
 .status_flexing {
@@ -192,7 +194,7 @@ strong {
   top: 0;
   background-color: rgb(255, 255, 255);
   font-size: 20px;
-  width: 6%;
+  width: 7%;
   height: 25px;
   text-align: center;
   font-size: 13px;
@@ -226,7 +228,9 @@ strong {
   width: 35px;
   height: 35px;
   border-radius: 35px;
-  border: 2px solid rgb(247, 3, 137);
+  border: 2px solid rgba(255, 68, 0, 0);
+  background: linear-gradient(white, white) padding-box, 
+  linear-gradient(to right, rgb(207, 6, 222), orange)border-box;
 }
 
 .profile_image_flex {
@@ -515,3 +519,40 @@ input{
   margin: 0;
   font-weight: bold;
 } 
+@media (max-width: 1100px) {
+  .icon_items{
+    display: none;
+    /* background-color: #0094f7; */
+  }
+  .nav_section_one{
+    width: 110px;
+  }
+
+}
+@media (max-width: 990px) {
+  .new_post{
+    width: 12%;
+  }
+}
+@media (max-width: 800px) {
+  .suggestions_flex{
+    display: none;
+  }
+  .nav_section_one{
+    width: 80px;
+  }
+  .post_section_two{
+    margin-left: -180px;
+  }
+}
+@media (max-width: 500px) {
+  .nav_section_one{
+  display: none;
+  }
+  .post_section_two{
+    width: 330px;
+  }
+  .post_section_two{
+    margin-left: -180px;
+  }
+}
