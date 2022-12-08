@@ -546,13 +546,13 @@ input{
   }
 }
 @media (max-width: 500px) {
-  .nav_section_one{
+  /* .nav_section_one{
   display: none;
-  }
+  } */
   .post_section_two{
     width: 400px;
   }
-  .post_section_two{
+  /* .post_section_two{
     margin-left: -180px;
-  }
+  } */
 }
