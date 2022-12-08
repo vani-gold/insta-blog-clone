@@ -546,13 +546,13 @@ input{
   }
 }
 @media (max-width: 500px) {
-  body{
+  .nav_section_one{
   overflow-y:hidden;
   }
   .post_section_two{
     width: 400px;
   }
-  /* .post_section_two{
-    margin-left: -180px;
-  } */
+  .status_name{
+    margin-left: 0;
+  }
 }
