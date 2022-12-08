@@ -587,4 +587,7 @@ input{
   .logo2{
     display: block;
   }
+  .jakie{
+    height: 400px;
+  }
 }
