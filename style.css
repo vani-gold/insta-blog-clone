@@ -551,6 +551,9 @@ input{
     display: block;
     margin-left: 26%; 
   }
+  .new_post{
+    width: fit-content;
+  }
 }
 @media (max-width: 800px) {
   .suggestions_flex{
@@ -569,6 +572,9 @@ input{
   .logo2{
     display: block;
     margin-left: 30%; 
+  }
+  .new_post{
+    width: fit-content;
   }
 }
 @media (max-width: 500px) {
@@ -589,5 +595,8 @@ input{
   }
   .jakie{
     height: 400px;
+  }
+  .new_post{
+    width: fit-content;
   }
 }
