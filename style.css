@@ -39,14 +39,17 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.logo {
+.logo1 {
   margin-top: 8%;
   width: 45%;
   height: 6vh;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-bottom: 8px;
 }
-
+.logo2{
+    display: none;
+    margin-left: 25%;
+}
 /* section one nav*/
 .nav_section_one {
   height: 100%;
@@ -194,8 +197,8 @@ strong {
   top: 0;
   background-color: rgb(255, 255, 255);
   font-size: 20px;
-  width: 7%;
-  height: 25px;
+  width: 9%;
+  height: 30px;
   text-align: center;
   font-size: 13px;
   position: sticky;
@@ -519,19 +522,34 @@ input{
   margin: 0;
   font-weight: bold;
 } 
+
+/* Responsiveness */
 @media (max-width: 1100px) {
   .icon_items{
     display: none;
-    /* background-color: #0094f7; */
   }
   .nav_section_one{
     width: 110px;
   }
-
+  .logo1{
+    display: none;
+    margin-left: -30px;
+  }
+  .logo2{
+    display: block;
+    margin-left: 25%; 
+  }
 }
 @media (max-width: 990px) {
   .new_post{
     width: 12%;
+  }
+  .logo1{
+    display: none;
+  }
+  .logo2{
+    display: block;
+    margin-left: 26%; 
   }
 }
 @media (max-width: 800px) {
@@ -544,6 +562,14 @@ input{
   .post_section_two{
     margin-left: -180px;
   }
+  .logo1{
+    display: none;
+    
+  }
+  .logo2{
+    display: block;
+    margin-left: 30%; 
+  }
 }
 @media (max-width: 500px) {
   .nav_section_one{
@@ -553,6 +579,12 @@ input{
     width: 400px;
   }
   .status_name{
-    font-size: 8px;
+    font-size: 9px;
+  }
+  .logo1{
+    display: none;
+  }
+  .logo2{
+    display: block;
   }
 }
