@@ -553,6 +553,6 @@ input{
     width: 400px;
   }
   .status_name{
-    margin-left: 0;
+    font-size: 6px;
   }
 }
