@@ -145,15 +145,7 @@ body {
   border: 1px solid #dbdbdb;
 }
 
-.status_image {
-  width: 60px;
-  height: 60px;
-  border-radius: 35px;
-  /* padding: 2px; */
-  border: 2px solid rgba(255, 68, 0, 0);
-  background: linear-gradient(white, white) padding-box, 
-  linear-gradient(to right, rgb(207, 6, 222), orange)border-box;
-}
+
 
 .status_flexing {
   background-color: white;
@@ -180,7 +172,15 @@ body {
   padding-bottom: 0px;
   margin-bottom: 0;
 }
-
+.status_image {
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  /* padding: 2px; */
+  border: 2px solid rgba(255, 68, 0, 0);
+  background: linear-gradient(white, white) padding-box, 
+  linear-gradient(to right, rgb(207, 6, 222), orange)border-box;
+}
 .main_flex {
   margin-left: 160px;
 }
@@ -270,12 +270,36 @@ strong {
   margin-left: -100px;
 }
 
-.jakie {
+/* .jakie {
   width: fit-content;
   height: 75vh;
   width: 100%;
+} */
+.post_image_div{
+  /* background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/762/original/reginal.jpg?1671532571"); */
+  width: 100%;
+  /* height: 600px; */
 }
 
+.post_image_div2{
+  /* background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/766/original/yvone.jpg?1671533362"); */
+  width: 100%;
+  /* height: 600px; */
+}
+
+.post_image_div3{
+  /* background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/759/original/jackie.jpg?1671532202"); */
+  width: 100%;
+  /* height: 700px; */
+}
+.post_image_div4{
+  /* background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/759/original/jackie.jpg?1671532202"); */
+  width: 100%;
+  /* height: 700px; */
+}
+.jakie{
+  width: 100%;
+}
 .comment_image {
   width: 20px;
   height: 20px;
@@ -578,6 +602,24 @@ input{
     width: fit-content;
   }
 }
+@media (max-width: 650px) {
+  .post_wrapper{
+    width: 80%;
+    
+  }
+  .status_wrapper{
+    width: 80%;
+  }
+  .status_image {
+    width: 30px;
+    height: 30px;
+}
+.status_name {
+font-size: 7px;
+
+}
+
+}
 @media (max-width: 500px) {
   .nav_section_one{
   overflow-y:hidden;
@@ -586,19 +628,23 @@ input{
     width: 400px;
   }
   .status_name{
-    font-size: 9px;
+    font-size: 5px;
   }
   .logo1{
     display: none;
   }
   .logo2{
     display: block;
-    
-  }
-  .jakie{
-    height: 400px;
   }
   .new_post{
     width: fit-content;
+  }
+  .status_update_flex{
+    justify-content: center;
+  }
+  .status_flexing{
+    margin-left: 0px;
+    justify-content: center;
+  gap: 5px;
   }
 }
