@@ -208,6 +208,7 @@ strong {
 }
 
 .post_wrapper {
+  /* width: 40px; */
   border-radius: 15px;
   border-left: 1px solid #dbdbdb;
   border-right: 1px solid #dbdbdb;
@@ -584,13 +585,15 @@ input{
 @media (max-width: 800px) {
   .suggestions_flex{
     display: none;
+    gap: 0;
   }
   .nav_section_one{
     width: 80px;
   }
   .post_section_two{
-    margin-left: -240px;
+    margin-left: -220px;
     overflow-y: hidden;
+    margin-right: 0;
   }
   .logo1{
     display: none;
@@ -606,7 +609,7 @@ input{
 }
 @media (max-width: 650px) {
   .post_wrapper{
-    width: 80%;
+    width: 95%;
     
   }
   .status_wrapper{
@@ -628,8 +631,9 @@ font-size: 7px;
   overflow-x: hidden;
   }
   .post_section_two{
-    width: 500px;
+    width: 400px;
     overflow-x: hidden;
+    padding-right: -20px;
   }
   .status_name{
     font-size: 5px;
