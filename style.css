@@ -534,10 +534,8 @@ input{
   height: 30px;
   border-radius: 30px;
   position: relative;
-  /* top:-200px; */
-  top:-18.5%;
-  /* left: 160px; */
-  left: -33%;
+  top:-17%;
+  left: -30%;
   z-index: 1px;
   color: rgb(5, 5, 5);
   text-align: center;
@@ -549,6 +547,11 @@ input{
 
 /* Responsiveness */
 @media (max-width: 1100px) {
+  .caro{
+    position: relative;
+    top:-17%;
+    left: -30%;
+  }
   .icon_items{
     display: none;
   }
@@ -579,6 +582,11 @@ input{
   .new_post{
     width: fit-content;
   }
+  .caro{
+    position: relative;
+    top:-17.2%;
+    left: -30%;
+  }
 }
 @media (max-width: 800px) {
   .suggestions_flex{
@@ -594,6 +602,11 @@ input{
     display: none;
     
   }
+  /* .caro{
+    position: relative;
+    top:-42%;
+    left: -30%;
+  } */
   .logo2{
     display: block;
     margin-left: 30%; 
