@@ -60,7 +60,7 @@ body {
   top: 0;
   left: 0;
   background-color: rgb(255, 255, 255);
-  overflow-x: hidden;
+  overflow-x: none;
   padding-top: 20px;
 
 }
@@ -597,16 +597,13 @@ input{
   }
   .post_section_two{
     margin-left: -180px;
+    overflow-x: none;
   }
   .logo1{
     display: none;
     
   }
-  /* .caro{
-    position: relative;
-    top:-42%;
-    left: -30%;
-  } */
+
   .logo2{
     display: block;
     margin-left: 30%; 
@@ -660,4 +657,5 @@ font-size: 7px;
     justify-content: center;
   gap: 5px;
   }
+  
 }
